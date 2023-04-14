@@ -1,7 +1,7 @@
 <?php
 
-use Doctrine\ORM\Tools\Console\EntityManagerProvider\SingleManagerProvider;
+// use Doctrine\ORM\Tools\Console\EntityManagerProvider\SingleManagerProvider;
 
-require_once "bootstrap.php";
-// return \Doctrine\ORM\Tools\Console\ConsoleRunner::createHelperSet($entityManager);
-new SingleManagerProvider($entityManager);
+// require_once "bootstrap.php";
+
+// new SingleManagerProvider($entityManager);
