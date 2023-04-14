@@ -5,8 +5,8 @@
         "symfony/console": "^5.0",
         "symfony/validator": "^5.4",
         "symfony/security-bundle": "*",
-        "symfony/framework-bundle": "^5.4",
-        "doctrine/migrations": "^3.5"
+        "symfony/framework-bundle": "^5.4"
+
     },
     "autoload": {
         "psr-4": {
@@ -21,6 +21,6 @@
 
     "scripts": {
     "create-product": "php bootstrap.php app:create-product"
-    }
+        }
     }
 }

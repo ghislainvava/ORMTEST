@@ -7,7 +7,7 @@ use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\ORMSetup;
 
 $isDevMode = true;
-$proxyDir = null;
+//$proxyDir = null;
 $cache = null;
 $useSimpleAnnotationReader = false;
 $paths = array(__DIR__ . "/src");

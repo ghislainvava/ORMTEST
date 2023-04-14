@@ -1,14 +1,14 @@
 <?php
 
-require_once "bootstrap.php";
+// require_once "bootstrap.php";
 
-use Doctrine\ORM\Tools\Console\ConsoleRunner;
-use Doctrine\ORM\Tools\Console\EntityManagerProvider\SingleManagerProvider;
+// use Doctrine\ORM\Tools\Console\ConsoleRunner;
+// use Doctrine\ORM\Tools\Console\EntityManagerProvider\SingleManagerProvider;
 
-$entityManagerProvider = new SingleManagerProvider($entityManager);
-$commands = [];
+// $entityManagerProvider = new SingleManagerProvider($entityManager);
+// $commands = [];
 
-ConsoleRunner::run(
-    $entityManagerProvider,
-    $commands
-);
+// ConsoleRunner::run(
+//     $entityManagerProvider,
+//     $commands
+// );
